@@ -12,9 +12,9 @@ const menu = require("./lib/menu.js");
 const donate = require("./lib/donate.js");
 const info = require("./lib/info.js");
 //
-const BotName = 'MASLENT V7'; // jangan di ubah...bila di ubah eror.      BOT BY MASLENT 
+const BotName = 'RAMA'; // jangan di ubah...bila di ubah eror.      BOT BY RAMA 
 const instagramlu = 'https://instagram.com/maslent11'; // jangan di ubah...bila di ubah eror
-const whatsapplu = 'wa/me +628165466368'; // jangan di ubah...bila di ubah eror
+const whatsapplu = 'wa/me '; // jangan di ubah...bila di ubah eror
 const kapanbotaktif = 'serahku'; // jangan di ubah...bila di ubah eror
 const grupch1 = 'https://chat.whatsapp.com/E8VriS0ojj53PX5wkhPYaD'; // jangan di ubah...bila di ubah eror
 const grupch2 = 'https://chat.whatsapp.com/E8VriS0ojj53PX5wkhPYaD'; // jangan di ubah...bila di ubah eror
@@ -70,7 +70,7 @@ conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] =>  bot by @maslent`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] =>  bot by @RAMA`)
 })
 
 conn.on('message-new', async(m) =>
